@@ -1,0 +1,171 @@
+body { 
+            background-color: #0a0a0c; 
+            color: #f5f5f7; 
+            padding-top: 120px; 
+        }
+        
+        .navbar { 
+            background-color: rgba(10, 10, 12, 0.95); 
+            border-bottom: 1px solid rgba(0, 210, 255, 0.1); 
+        }
+        
+        .nav-link { 
+            color: #a0a0aa !important; 
+        }
+        
+        .nav-link:hover, .nav-link.active { 
+            color: #00d2ff !important; 
+        }
+
+        .studio-row {
+            margin-bottom: 90px;
+        }
+
+        .studio-img-container {
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid rgba(0, 210, 255, 0.15);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+            transition: transform 0.3s ease, border-color 0.3s ease;
+            background-color: #121318;
+        }
+
+        .studio-img-container:hover {
+            transform: scale(1.02);
+            border-color: #00d2ff;
+        }
+
+        .studio-img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .studio-title {
+            color: #00d2ff;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .gear-badge {
+            background-color: #121318;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: #a0a0aa;
+            margin-right: 5px;
+            margin-bottom: 5px;
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+        }
+           /* ==========================================================================
+   LÁBLÉC (FOOTER) STÍLUSOK
+   ========================================================================== */
+.site-footer {
+    background-color: #050507;
+    border-top: 1px solid rgba(0, 210, 255, 0.1);
+    padding: 60px 0 30px 0;
+    margin-top: 100px; /* Távolság a fenti tartalomtól */
+}
+
+.footer-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.footer-text {
+    color: #a0a0aa;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.footer-heading {
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/* Kék díszítővonal az alcímek alatt */
+.footer-heading::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 30px;
+    height: 2px;
+    background-color: #00d2ff;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 12px;
+}
+
+.footer-links a {
+    color: #a0a0aa;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.2s ease, padding-left 0.2s ease;
+}
+
+.footer-links a:hover {
+    color: #00d2ff;
+    padding-left: 5px; /* Finom elmozdulás jobbra hover esetén */
+}
+
+.footer-contact-item {
+    font-size: 0.9rem;
+    color: #a0a0aa;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-contact-item i {
+    color: #00d2ff;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-btn {
+    width: 38px;
+    height: 38px;
+    background-color: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #a0a0aa;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-btn:hover {
+    background-color: #00d2ff;
+    color: #0a0a0c;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 210, 255, 0.3);
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    margin-top: 40px;
+    padding-top: 25px;
+    font-size: 0.85rem;
+    color: #71717a;
+}

@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulse Records | Archívum</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="archivum.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVIGÁCIÓ -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-3">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">PULSE<span style="color:#00d2ff;">RECORDS</span></a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto gap-3">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Kezdőlap</a></li>
+                    <li class="nav-item"><a class="nav-link" href="eloadok.html">Előadóink</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="archivum.html">Archívum</a></li>
+                    <li class="nav-item"><a class="nav-link" href="studiok.html">Stúdiók</a></li>
+                    <li class="nav-item"><a class="nav-link" href="demok.html">Demók</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- TARTALOM -->
+    <div class="container my-5">
+        <h2 class="border-start border-4 border-info ps-3 mb-5 fw-bold text-uppercase">Kiadói Archívum</h2>
+        
+        <div class="row g-4">
+            
+            <!-- 1. ALBUM (Martin Garrix - Gold Skies (EP)) -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                <div class="album-card p-3" data-color="#19102b">
+                    <img src="https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?q=80&w=500" class="album-img rounded mb-3" alt="Gold Skies">
+                    <h5 class="album-title h6 text-truncate">Gold Skies</h5>
+                    <div class="album-artist">Martin Garrix</div>
+                    <div class="text-secondary small mb-3">2022 • Album</div>
+                    
+                    <!-- VEZÉRLŐK: GOMB + CSÚSZKA -->
+                    <div class="player-controls p-2 rounded bg-dark bg-opacity-40">
+                        <div class="d-flex align-items-center gap-3 mb-1">
+                            <!-- ITT A LEJÁTSZÁS GOMB -->
+                            <button class="play-btn" data-audio-src="Martin Garrix - Animals (Official Video).mp3">
+                                <i class="bi bi-play-fill"></i>
+                            </button>
+                            <!-- ITT A CSÚSZKA -->
+                            <input type="range" class="seek-slider" value="0" min="0" max="100">
+                        </div>
+                        <div class="d-flex justify-content-between px-1 mt-1">
+                            <span class="time-text current-time">0:00</span>
+                            <span class="time-text duration-time">0:00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. ALBUM (Tiësto - Drive) -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                <div class="album-card p-3" data-color="#240c13">
+                    <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?q=80&w=500" class="album-img rounded mb-3" alt="Drive">
+                    <h5 class="album-title h6 text-truncate">Drive</h5>
+                    <div class="album-artist">Tiësto</div>
+                    <div class="text-secondary small mb-3">2023 • Album</div>
+                    
+                    <div class="player-controls p-2 rounded bg-dark bg-opacity-40">
+                        <div class="d-flex align-items-center gap-3 mb-1">
+                            <button class="play-btn" data-audio-src="Tiësto - The Business (Official Music Video).mp3">
+                                <i class="bi bi-play-fill"></i>
+                            </button>
+                            <input type="range" class="seek-slider" value="0" min="0" max="100">
+                        </div>
+                        <div class="d-flex justify-content-between px-1 mt-1">
+                            <span class="time-text current-time">0:00</span>
+                            <span class="time-text duration-time">0:00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. ALBUM (Alesso - Forever) -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                <div class="album-card p-3" data-color="#091f2c">
+                    <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=500" class="album-img rounded mb-3" alt="Forever">
+                    <h5 class="album-title h6 text-truncate">Forever</h5>
+                    <div class="album-artist">Alesso</div>
+                    <div class="text-secondary small mb-3">2015 • Album</div>
+                    
+                    <div class="player-controls p-2 rounded bg-dark bg-opacity-40">
+                        <div class="d-flex align-items-center gap-3 mb-1">
+                            <button class="play-btn" data-audio-src="Alesso - Forever Album Mix.mp3">
+                                <i class="bi bi-play-fill"></i>
+                            </button>
+                            <input type="range" class="seek-slider" value="0" min="0" max="100">
+                        </div>
+                        <div class="d-flex justify-content-between px-1 mt-1">
+                            <span class="time-text current-time">0:00</span>
+                            <span class="time-text duration-time">0:00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4. ALBUM (Martin Garrix - The Collection) -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                <div class="album-card p-3" data-color="#142416">
+                    <img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?q=80&w=500" class="album-img rounded mb-3" alt="Collection">
+                    <h5 class="album-title h6 text-truncate">The Collection</h5>
+                    <div class="album-artist">Martin Garrix</div>
+                    <div class="text-secondary small mb-3">2018 • Válogatás</div>
+                    
+                    <div class="player-controls p-2 rounded bg-dark bg-opacity-40">
+                        <div class="d-flex align-items-center gap-3 mb-1">
+                            <button class="play-btn" data-audio-src="Martin Garrix & Dua Lipa - Scared To Be Lonely (Official Video).mp3">
+                                <i class="bi bi-play-fill"></i>
+                            </button>
+                            <input type="range" class="seek-slider" value="0" min="0" max="100">
+                        </div>
+                        <div class="d-flex justify-content-between px-1 mt-1">
+                            <span class="time-text current-time">0:00</span>
+                            <span class="time-text duration-time">0:00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5. ALBUM (Tiësto - Paradise) -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                <div class="album-card p-3" data-color="#2c2209">
+                    <img src="https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?q=80&w=500" class="album-img rounded mb-3" alt="Paradise">
+                    <h5 class="album-title h6 text-truncate">A Town Called Paradise</h5>
+                    <div class="album-artist">Tiësto</div>
+                    <div class="text-secondary small mb-3">2014 • Album</div>
+                    
+                    <div class="player-controls p-2 rounded bg-dark bg-opacity-40">
+                        <div class="d-flex align-items-center gap-3 mb-1">
+                            <button class="play-btn" data-audio-src="A Town Called Paradise [41MAU4mRExw].mp3">
+                                <i class="bi bi-play-fill"></i>
+                            </button>
+                            <input type="range" class="seek-slider" value="0" min="0" max="100">
+                        </div>
+                        <div class="d-flex justify-content-between px-1 mt-1">
+                            <span class="time-text current-time">0:00</span>
+                            <span class="time-text duration-time">0:00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- REJTETT AUDIO MOTOR -->
+    <audio id="globalAudio" preload="auto"></audio>
+
+    <script>
+        const albumCards = document.querySelectorAll('.album-card');
+        const body = document.body;
+        const originalColor = '#0a0a0c';
+        const audioPlayer = document.getElementById('globalAudio');
+        
+        let currentPlayingBtn = null;
+        let isSeeking = false;
+
+        // Háttérszín váltás egér ráhúzásakor
+        albumCards.forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                body.style.backgroundColor = card.getAttribute('data-color');
+            });
+            card.addEventListener('mouseleave', () => {
+                body.style.backgroundColor = originalColor;
+            });
+
+            const playBtn = card.querySelector('.play-btn');
+            const slider = card.querySelector('.seek-slider');
+            const audioSrc = playBtn.getAttribute('data-audio-src');
+
+            // GOMB KATTINTÁS (LEJÁTSZÁS / PAUSE KONTROLL)
+            playBtn.addEventListener('click', function() {
+                if (currentPlayingBtn === playBtn) {
+                    // Ha ugyanazt a gombot nyomtuk meg újra -> szünet vagy folytatás
+                    if (audioPlayer.paused) {
+                        audioPlayer.play().catch(err => console.log("Lejátszási hiba:", err));
+                        setPlayingState(card, playBtn, true);
+                    } else {
+                        audioPlayer.pause();
+                        setPlayingState(card, playBtn, false);
+                    }
+                } else {
+                    // Ha egy teljesen másik számra kattintottunk
+                    if (currentPlayingBtn) {
+                        // Előző leállítása
+                        const previousCard = currentPlayingBtn.closest('.album-card');
+                        setPlayingState(previousCard, currentPlayingBtn, false);
+                    }
+
+                    // Új fájl betöltése és kényszerített lejátszása
+                    audioPlayer.src = audioSrc;
+                    audioPlayer.load(); // Biztosítja, hogy a böngésző azonnal behúzza a fájlt
+                    
+                    audioPlayer.play()
+                        .then(() => {
+                            currentPlayingBtn = playBtn;
+                            setPlayingState(card, playBtn, true);
+                        })
+                        .catch(err => {
+                            alert("Hiba: Biztosan bemásoltad a(z) " + audioSrc + " fájlt a mappába?");
+                            console.log("Audio betöltési hiba:", err);
+                        });
+                }
+            });
+
+            // Idősáv kezelése feszítéskor (egér lenyomás)
+            slider.addEventListener('mousedown', () => { isSeeking = true; });
+            slider.addEventListener('touchstart', () => { isSeeking = true; });
+
+            // Amikor elengedi a csúszkát -> odaugrik a zene
+            slider.addEventListener('input', () => {
+                if (currentPlayingBtn === playBtn && audioPlayer.duration) {
+                    const seekTo = audioPlayer.duration * (slider.value / 100);
+                    audioPlayer.currentTime = seekTo;
+                }
+            });
+            
+            slider.addEventListener('change', () => { isSeeking = false; });
+        });
+
+        // Az idősáv és a számlálók folyamatos frissítése lejátszás közben
+        audioPlayer.addEventListener('timeupdate', () => {
+            if (!currentPlayingBtn || isSeeking) return;
+
+            const activeCard = currentPlayingBtn.closest('.album-card');
+            const slider = activeCard.querySelector('.seek-slider');
+            const currentTimeText = activeCard.querySelector('.current-time');
+            const durationTimeText = activeCard.querySelector('.duration-time');
+
+            if (audioPlayer.duration) {
+                const percentage = (audioPlayer.currentTime / audioPlayer.duration) * 100;
+                slider.value = percentage;
+
+                currentTimeText.textContent = formatTime(audioPlayer.currentTime);
+                durationTimeText.textContent = formatTime(audioPlayer.duration);
+            }
+        });
+
+        // Ha a zene teljesen betöltődött, kiírja a teljes hosszát
+        audioPlayer.addEventListener('loadedmetadata', () => {
+            if (!currentPlayingBtn) return;
+            const activeCard = currentPlayingBtn.closest('.album-card');
+            const durationTimeText = activeCard.querySelector('.duration-time');
+            durationTimeText.textContent = formatTime(audioPlayer.duration);
+        });
+
+        // Időformázó (0:00 alakúra)
+        function formatTime(seconds) {
+            if (isNaN(seconds)) return "0:00";
+            const mins = Math.floor(seconds / 60);
+            const secs = Math.floor(seconds % 60);
+            return mins + ":" + (secs < 10 ? "0" : "") + secs;
+        }
+
+        // Vizuális állapotváltó függvény
+        function setPlayingState(card, button, isPlaying) {
+            const icon = button.querySelector('i');
+            if (isPlaying) {
+                card.classList.add('playing');
+                button.classList.add('playing');
+                icon.className = 'bi bi-pause-fill'; // Átvált szünet ikonra
+            } else {
+                card.classList.remove('playing');
+                button.classList.remove('playing');
+                icon.className = 'bi bi-play-fill'; // Visszavált lejátszás ikonra
+            }
+        }
+
+        // Ha a dal a végére ér, mindent visszaállít alaphelyzetbe
+        audioPlayer.addEventListener('ended', () => {
+            if (currentPlayingBtn) {
+                const activeCard = currentPlayingBtn.closest('.album-card');
+                const slider = activeCard.querySelector('.seek-slider');
+                const currentTimeText = activeCard.querySelector('.current-time');
+                
+                slider.value = 0;
+                currentTimeText.textContent = "0:00";
+                setPlayingState(activeCard, currentPlayingBtn, false);
+                currentPlayingBtn = null;
+            }
+        });
+    </script>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row g-4">
+                
+                <div class="col-12 col-md-4">
+                    <a class="footer-brand text-white text-decoration-none d-block mb-3" href="index.html">
+                        MAGI<span style="color:#00d2ff;">RECORDS</span>
+                    </a>
+                    <p class="footer-text pe-md-4">
+                        A jövő elektronikus zenéje, ma. Elkötelezettek vagyunk a tehetséges producerek és a prémium minőségű fesztiválhangzás mellett.
+                    </p>
+                    <div class="social-icons mt-4">
+                        <a href="https://instagram.com" target="_blank" class="social-btn"><i class="bi bi-instagram"></i></a>
+                        <a href="https://youtube.com" target="_blank" class="social-btn"><i class="bi bi-youtube"></i></a>
+                        <a href="https://spotify.com" target="_blank" class="social-btn"><i class="bi bi-spotify"></i></a>
+                        <a href="https://soundcloud.com" target="_blank" class="social-btn"><i class="bi bi-cloud-fill"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 ps-md-5">
+                    <h5 class="footer-heading">Navigáció</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Kezdőlap</a></li>
+                        <li><a href="eloadok.html">Előadóink</a></li>
+                        <li><a href="archivum.html">Archívum</a></li>
+                        <li><a href="studiok.html">Stúdiók</a></li>
+                        <li><a href="demok.html">Demók</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-4">
+                    <h5 class="footer-heading">Kapcsolat</h5>
+                    <div class="footer-contact-item">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        <span>4025 Debrecen, Széchenyi u. 58.</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="bi bi-envelope-fill"></i>
+                        <span>dominikadihen@gmail.com</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="bi bi-telephone-fill"></i>
+                        <span>+36 20 623 8829</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="bi bi-clock-fill"></i>
+                        <span>H-P: 10:00 - 18:00</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom d-flex flex-column flex-sm-row justify-content-between align-items-center gap-3">
+                <div>
+                    © 2026 MAGI RECORDS. Minden jog fenntartva.
+                </div>
+                <div class="d-flex gap-3">
+                    <a href="#" class="text-secondary text-decoration-none small">Adatvédelem</a>
+                    <span class="text-secondary">•</span>
+                    <a href="#" class="text-secondary text-decoration-none small">ÁSZF</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

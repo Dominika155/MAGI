@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAGI RECORDS | Előadóink</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="eloadok.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVIGÁCIÓ -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-3">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">MAGI<span style="color:#00d2ff;">RECORDS</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto gap-3">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Kezdőlap</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="eloadok.html">Előadóink</a></li>
+                    <li class="nav-item"><a class="nav-link" href="archivum.html">Archívum</a></li>
+                    <li class="nav-item"><a class="nav-link" href="studiok.html">Stúdiók</a></li>
+                    <li class="nav-item"><a class="nav-link" href="demok.html">Demók</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- TARTALOM (ELŐADÓ KÁRTYÁK) -->
+    <div class="container my-5">
+        <h2 class="border-start border-4 border-info ps-3 mb-5 fw-bold text-uppercase">Exkluzív Előadóink</h2>
+        
+        <div class="row g-4">
+            
+            <!-- ALESSO KÁRTYA -->
+            <div class="col-12 col-md-4" data-bs-toggle="modal" data-bs-target="#alessoModal">
+                <div class="card custom-card h-100 text-white">
+                    <img src="Alesso.jpg" class="card-img-top" alt="Alesso">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold text-info">Alesso</h5>
+                        <p class="card-text text-secondary">Műfaj: Progressive House / Melodic Pop<br>Származás: Stockholm, Svédország</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TIESTO KÁRTYA -->
+            <div class="col-12 col-md-4" data-bs-toggle="modal" data-bs-target="#tiestoModal">
+                <div class="card custom-card h-100 text-white">
+                    <img src="Tiesto.webp" class="card-img-top" alt="Tiësto">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold text-info">Tiësto</h5>
+                        <p class="card-text text-secondary">Műfaj: Trance / Big Room / Electronic<br>Származás: Breda, Hollandia</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MARTIN GARRIX KÁRTYA -->
+            <div class="col-12 col-md-4" data-bs-toggle="modal" data-bs-target="#garrixModal">
+                <div class="card custom-card h-100 text-white">
+                    <img src="Martin Garrix.jpg" class="card-img-top" alt="Martin Garrix">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold text-info">Martin Garrix</h5>
+                        <p class="card-text text-secondary">Műfaj: Electro House / Future Bass<br>Származás: Amstelveen, Hollandia</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- ================= MODÁLIS ABLAKOK ================= -->
+
+    <!-- ALESSO MODAL -->
+    <div class="modal fade" id="alessoModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header d-flex justify-content-between align-items-center">
+                    <h4 class="modal-title fw-bold text-info">Alesso</h4>
+                    <button type="button" class="btn-close-custom" data-bs-dismiss="modal">×</button>
+                </div>
+                <div class="modal-body">
+                    <img src="Alesso.jpg" class="modal-img" alt="Alesso nagy kép">
+                    <h5 class="fw-bold mb-3 text-white">Biográfia & Karrier</h5>
+                    <p class="text-secondary">Alessandro Renato Rodolfo Lindblad, művésznevén Alesso, a svéd progressive house szcéna egyik legmeghatározóbb alakja. Világhírnevet a Sebastian Ingrosso-val közös "Calling (Lose My Mind)" és az ikonikus "Heroes (We Could Be)" című slágerekkel szerzett.</p>
+                    <p class="text-secondary">Dallamos, érzelmes, mégis hatalmas energiájú produceri munkáiról ismert. Rendszeres nagyszínpados fellépője olyan gigantikus fesztiváloknak, mint a Tomorrowland és az Ultra Music Festival.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-info" data-bs-dismiss="modal">Bezárás</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- TIESTO MODAL -->
+    <div class="modal fade" id="tiestoModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header d-flex justify-content-between align-items-center">
+                    <h4 class="modal-title fw-bold text-info">Tiësto</h4>
+                    <button type="button" class="btn-close-custom" data-bs-dismiss="modal">×</button>
+                </div>
+                <div class="modal-body">
+                    <img src="Tiesto.webp" class="modal-img" alt="Tiësto nagy kép">
+                    <h5 class="fw-bold mb-3 text-white">Biográfia & Karrier</h5>
+                    <p class="text-secondary">Tijs Michiel Verwest, azaz Tiësto, az elektronikus zene történetének egyik legnagyobb élő legendája, akit a Mixmag magazin szavazásán formálisan is megválasztottak "Minden idők legnagyobb DJ-jének". Karrierjét klasszikus Trance zenékkel kezdte, ő volt az első DJ, aki élőben lépett fel az Olimpiai Játékok megnyitóján (2004, Athén).</p>
+                    <p class="text-secondary">Az évek során sikeresen újította meg hangzását a modern klubzenék, a Big Room és a Slap House irányába. Olyan világslágerek fűződnek a nevéhez, mint a "The Business", a "Secrets" vagy az ikonikus "Adagio for Strings" remix.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-info" data-bs-dismiss="modal">Bezárás</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MARTIN GARRIX MODAL -->
+    <div class="modal fade" id="garrixModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header d-flex justify-content-between align-items-center">
+                    <h4 class="modal-title fw-bold text-info">Martin Garrix</h4>
+                    <button type="button" class="btn-close-custom" data-bs-dismiss="modal">×</button>
+                </div>
+                <div class="modal-body">
+                    <img src="Martin Garrix.jpg" class="modal-img" alt="Martin Garrix nagy kép">
+                    <h5 class="fw-bold mb-3 text-white">Biográfia & Karrier</h5>
+                    <p class="text-secondary">Martijn Gerard Garritsen, ismertebb nevén Martin Garrix, a modern EDM generáció csodagyereke. Mindössze 17 évesen robbant be a köztudatba az állandó klubhimnusszá vált "Animals" című trackjével, amellyel a slágerlisták élére tört. Négyszer választották meg a világ első számú DJ-jének a DJ Mag Top 100-as listáján.</p>
+                    <p class="text-secondary">Saját kiadóját (STMPD RCRDS) vezeti, és olyan grandiózus rádiós slágereket jegyez, mint az "In the Name of Love" (Bebe Rexha-val) vagy a "Scared to Be Lonely" (Dua Lipa-val). Koncertjei világszerte ismertek a lélegzetelállító vizuális és lézeres show-elemekről.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-info" data-bs-dismiss="modal">Bezárás</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row g-4">
+                
+                <div class="col-12 col-md-4">
+                    <a class="footer-brand text-white text-decoration-none d-block mb-3" href="index.html">
+                        MAGI<span style="color:#00d2ff;">RECORDS</span>
+                    </a>
+                    <p class="footer-text pe-md-4">
+                        A jövő elektronikus zenéje, ma. Elkötelezettek vagyunk a tehetséges producerek és a prémium minőségű fesztiválhangzás mellett.
+                    </p>
+                    <div class="social-icons mt-4">
+                        <a href="https://instagram.com" target="_blank" class="social-btn"><i class="bi bi-instagram"></i></a>
+                        <a href="https://youtube.com" target="_blank" class="social-btn"><i class="bi bi-youtube"></i></a>
+                        <a href="https://spotify.com" target="_blank" class="social-btn"><i class="bi bi-spotify"></i></a>
+                        <a href="https://soundcloud.com" target="_blank" class="social-btn"><i class="bi bi-cloud-fill"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 ps-md-5">
+                    <h5 class="footer-heading">Navigáció</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Kezdőlap</a></li>
+                        <li><a href="eloadok.html">Előadóink</a></li>
+                        <li><a href="archivum.html">Archívum</a></li>
+                        <li><a href="studiok.html">Stúdiók</a></li>
+                        <li><a href="demok.html">Demók</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-4">
+                    <h5 class="footer-heading">Kapcsolat</h5>
+                    <div class="footer-contact-item">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        <span>4025 Debrecen, Széchenyi u. 58.</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="bi bi-envelope-fill"></i>
+                        <span>dominikadihen@gmail.com</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="bi bi-telephone-fill"></i>
+                        <span>+36 20 623 8829</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="bi bi-clock-fill"></i>
+                        <span>H-P: 10:00 - 18:00</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom d-flex flex-column flex-sm-row justify-content-between align-items-center gap-3">
+                <div>
+                    © 2026 MAGI RECORDS. Minden jog fenntartva.
+                </div>
+                <div class="d-flex gap-3">
+                    <a href="#" class="text-secondary text-decoration-none small">Adatvédelem</a>
+                    <span class="text-secondary">•</span>
+                    <a href="#" class="text-secondary text-decoration-none small">ÁSZF</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
